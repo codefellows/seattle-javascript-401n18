@@ -1,0 +1,61 @@
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+
+    table {
+        border-collapse: collapse;
+
+        thead {
+            background: #414141;
+            color: pink;
+        }
+
+        tbody {
+            tr {
+                &.disabled {
+                    text-decoration: line-through;
+                }
+
+                &:hover {
+                    background: #ccc;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        td, th {
+            padding: .5rem 1rem;
+        }
+    }
+}
+
+.status {
+    background: #ccc;
+    color: #111;
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    &.positive {
+        background: greenyellow;
+        color: #111;
+    }
+
+    &.negative {
+        background: red;
+        color: #eee;
+    }
+}

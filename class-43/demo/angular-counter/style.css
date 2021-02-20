@@ -1,0 +1,24 @@
+.counter {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+}
+
+.counter span {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 1em;
+    text-align: center;
+    width: 100px;
+}
+
+.counter span.positive {
+    background: lightblue;
+}
+
+.counter span.negative {
+    background: lightpink;
+}

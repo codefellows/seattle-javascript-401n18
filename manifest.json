@@ -1,0 +1,1452 @@
+{
+  "overview": {
+    "title": "401 JavaScript",
+    "curriculum": {
+      "repository": "code-401-javascript-guide",
+      "path": "/curriculum/README.md"
+    },
+    "facilitator": {
+      "Course Overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/README.md"
+      },
+      "Data Structures and Algorithms": {
+        "repository": "code-401-javascript-guide",
+        "path": "/facilitator/data-structures-and-algorithms.md"
+      },
+      "Facilitator's Guide": {
+        "repository": "code-401-javascript-guide",
+        "path": "/facilitator/README.md"
+      }
+    }
+  },
+  "dependencies": {
+    "code-401-javascript-guide": "3.3.0",
+    "code-301-guide": "master",
+    "common_curriculum": "3.1.6"
+  },
+  "modules": [
+    {
+      "module": "01",
+      "name": "Module 1: Node.js",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-01/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/notesy/README.md",
+        "solution": "/curriculum/apps-and-libraries/notesy/src"
+      },
+      "classes": [
+        {
+          "class": "01",
+          "name": "Node Ecosystem",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-01/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-01/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "02",
+          "name": "Classes, Inheritance",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-02/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-02/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "03",
+          "name": "Data Modeling (NoSQL)",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-03/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-03/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "04",
+          "name": "Advanced Data Modeling",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-04/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-04/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "05",
+          "name": "DS&A & Career Coaching",
+          "assignments": {
+            "reading": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-05/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-05/LAB.md"
+            }
+          },
+          "facilitator": {
+            "DS&A (linked lists)": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-05/FACILITATOR.md"
+            },
+            "CCW #1 (resumes)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-1/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "02",
+      "name": "Module 2: APIs",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-02/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/api-server/README.md",
+        "solution": "/curriculum/apps-and-libraries/api-server/src"
+      },
+      "classes": [
+        {
+          "class": "06",
+          "name": "APIs",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-06/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-06/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "07",
+          "name": "Express",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-07/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-07/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "08",
+          "name": "Express Routing, CRUD",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-08/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-08/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "09",
+          "name": "API Server",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-09/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-09/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "10",
+          "name": "DS&A & Career Coaching",
+          "assignments": {
+            "reading": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-10/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-10/LAB.md"
+            }
+          },
+          "facilitator": {
+            "DS&A (stacks/queues)": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-10/FACILITATOR.md"
+            },
+            "CCW #2 (pitch)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-2/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "03",
+      "name": "Module 3: Authentication",
+      "overview": "/facilitator/module-3.md",
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/auth-server/README.md",
+        "solution": "/curriculum/apps-and-libraries/auth-server/src"
+      },
+      "classes": [
+        {
+          "class": "11",
+          "name": "Basic Authentication",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-11/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-11/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "12",
+          "name": "OAuth",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-12/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-12/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "13",
+          "name": "Bearer Authentication",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-13/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-13/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "14",
+          "name": "Access Control (ACL)",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-14/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-14/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "15",
+          "name": "DS&A & Career Coaching",
+          "assignments": {
+            "reading": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-15/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-15/LAB.md"
+            }
+          },
+          "facilitator": {
+            "DS&A (trees)": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-15/FACILITATOR.md"
+            },
+            "CCW #3 (job search)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-3/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "04",
+      "name": "Module 4: Realtime",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-04/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/caps/README.md",
+        "solution": "/curriculum/apps-and-libraries/caps/src"
+      },
+      "classes": [
+        {
+          "class": "16",
+          "name": "Event Driven Applications",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-16/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-16/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "17",
+          "name": "TCP",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-17/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-17/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "18",
+          "name": "Socket.io",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-18/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-18/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "19",
+          "name": "Message Queues",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-19/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-19/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "05",
+      "name": "Module 5: React",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-05/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/resty/README.md",
+        "solution": "/curriculum/apps-and-libraries/resty/src"
+      },
+      "classes": [
+        {
+          "class": "26",
+          "name": "Component Driven Design",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-26/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-26/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "27",
+          "name": "React Testing and Deployment",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-27/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-27/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "28",
+          "name": "Props and State",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-28/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-28/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "29",
+          "name": "Component Composition",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-29/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-29/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "30",
+          "name": "DS&A & Career Coaching",
+          "assignments": {
+            "reading": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-30/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-30/LAB.md"
+            }
+          },
+          "facilitator": {
+            "DS&A (hash tables)": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-30/FACILITATOR.md"
+            },
+            "CCW #4 (behavioral interviews)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-4/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "06",
+      "name": "Module 6: Hooks and Context",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-06/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/todo/README.md",
+        "solution": "/curriculum/apps-and-libraries/todo/src"
+      },
+      "classes": [
+        {
+          "class": "31",
+          "name": "Hooks API",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-31/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-31/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "32",
+          "name": "Custom Hooks",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-32/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-32/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "33",
+          "name": "Context API",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-33/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-33/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "34",
+          "name": "Login and Auth",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-34/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-34/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "35",
+          "name": "DS&A & Career Coaching",
+          "assignments": {
+            "reading": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-35/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-35/LAB.md"
+            }
+          },
+          "facilitator": {
+            "DS&A (graphs)": {
+              "repository": "common_curriculum",
+              "path": "/data_structures_and_algorithms/Code_401/class-35/FACILITATOR.md"
+            },
+            "CCW #1 (technichal interviews)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-5/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "07",
+      "name": "Module 7: Redux",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-07/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/apps-and-libraries/store/README.md",
+        "solution": "/curriculum/apps-and-libraries/store/src"
+      },
+      "classes": [
+        {
+          "class": "36",
+          "name": "Application State with Redux",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-36/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-36/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "37",
+          "name": "Combined Reducers",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-37/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-37/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "38",
+          "name": "Asynchronous Actions",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-38/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-38/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "39",
+          "name": "Additional Redux Topics",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-39/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-39/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "40",
+          "name": "DS&A & Career Coaching",
+          "facilitator": {
+            "CCW #6 (presentations)": {
+              "repository": "common_curriculum",
+              "path": "/career_coaching/401/workshop-6/facilitator/README.md"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module": "08",
+      "name": "Module 8: Other UI Frameworks",
+      "overview": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-08/README.md"
+      },
+      "project": {
+        "repository": "code-401-javascript-guide",
+        "path": "/curriculum/module-08/project/README.md"
+      },
+      "classes": [
+        {
+          "class": "41",
+          "name": "React Native",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-41/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-41/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "42",
+          "name": "React Native, Continued",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-42/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-42/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "43",
+          "name": "Gatsby, Next, Vue, Angular",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-43/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-43/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        },
+        {
+          "class": "44",
+          "name": "Javascript Frameworks",
+          "overview": {
+            "repository": "code-401-javascript-guide",
+            "path": "/curriculum/class-44/README.md"
+          },
+          "assignments": {
+            "reading": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/DISCUSSION.md"
+            },
+            "lab": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/lab/README.md"
+            }
+          },
+          "facilitator": {
+            "guide": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/facilitator/README.md"
+            },
+            "demo prep": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/facilitator/DEMO.md"
+            },
+            "code demos": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/demo"
+            },
+            "lecture example": {
+              "repository": "code-401-javascript-guide",
+              "path": "/curriculum/class-44/facilitator/LECTURE-EXAMPLE.md"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "midterm": {
+        "facilitator": {
+          "repository": "code-401-javascript-guide",
+          "path": "/projects/midterm/facilitator/README.md"
+        },
+        "students": {
+          "repository": "code-401-javascript-guide",
+          "path": "/projects/midterm/README.md"
+        }
+      },
+      "final": {
+        "facilitator": {
+          "repository": "code-401-javascript-guide",
+          "path": "/projects/final/facilitator/README.md"
+        },
+        "students": {
+          "repository": "code-401-javascript-guide",
+          "path": "/projects/final/README.md"
+        }
+      }
+    }
+  ]
+}

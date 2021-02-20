@@ -1,0 +1,10 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}

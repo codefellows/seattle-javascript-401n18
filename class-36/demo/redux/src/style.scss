@@ -1,0 +1,50 @@
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    flex: 1;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            border: 1px solid transparent;
+            padding: .5rem;
+
+            &:hover {
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.status {
+    background: #ccc;
+    color: #111;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    &.positive {
+        background: greenyellow;
+        color: #111;
+    }
+
+    &.negative {
+        background: red;
+        color: #eee;
+    }
+}
