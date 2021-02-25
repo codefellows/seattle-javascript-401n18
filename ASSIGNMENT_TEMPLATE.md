@@ -33,4 +33,4 @@ i.e.
 
 #### UML
 
-[UML Example](./uml.png)
+![UML Example](./reference/uml-1.png)
