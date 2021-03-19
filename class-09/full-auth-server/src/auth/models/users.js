@@ -8,7 +8,7 @@ const users = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   role: { type: String, required: true, default: 'user', enum: ['user', 'admin', 'editor']}
-});
+}, { toJSON: { virtuals: true }});
 
 const appSecret = process.env.APP_SECRET || 'coolfunsecret';
 
@@ -20,13 +20,12 @@ users.virtual('token').get(() => {
   return jwt.sign(tokenDetails, appSecret);
 })
 
-users.virtual('capabilities').get(() => {
+users.virtual('capabilities').get(function () {
   let acl = {
     user: ['read'],
-    editor: ['read', 'update'],
+    editor: ['read', 'create', 'update'],
     admin: ['read', 'create', 'update', 'delete']
-  }
-
+  };
   return acl[this.role];
 });
 
@@ -44,9 +43,8 @@ users.statics.authenticateBasic = async function(username, password) {
 
 // you are already signed in - let's check to make sure
 users.statics.authenticateToken = async function(token) {
-  const parsed = await jwt.verify(token, appSecret);
-  console.log(parsed);
-  const foundUser = await this.findOne({ username: parsed.username });
+  const parsed = jwt.verify(token, appSecret);
+  const foundUser = this.findOne({ username: parsed.username });
   if (foundUser) return foundUser;
   throw new Error('user not found');
 }
