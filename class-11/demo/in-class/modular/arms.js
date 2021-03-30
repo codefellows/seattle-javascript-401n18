@@ -11,3 +11,5 @@ function raiseArm(payload) {
     events.emit('light', {brightness:10});
   }
 }
+
+module.exports = {raiseArm};
