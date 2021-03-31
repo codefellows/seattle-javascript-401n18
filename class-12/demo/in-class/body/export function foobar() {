@@ -1,0 +1,13 @@
+export function foobar() {
+  // do work
+}
+
+export function blah() {}
+
+
+
+//// other file
+
+import {foobar, blah} from 'foobar.js';
+
+instead of const foobar = require('foobar');
