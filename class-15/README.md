@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-### Data Structure: <!-- TBD: Fill In Name -->
+### Data Structure: Trees
 
 - Implement
 - Document
