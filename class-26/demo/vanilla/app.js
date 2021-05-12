@@ -1,33 +1,25 @@
-let state = {};
+'use strict';
 
-let button = document.getElementById('clicker');
-button.addEventListener('click', handleClick);
+// words, wordsInput, clicker
 
-let input = document.getElementById('wordsInput');
-input.addEventListener('change', handleWords);
+// get input element
+const button = document.getElementById('clicker');
+const input = document.getElementById('wordsInput');
+const output = document.getElementById('words');
 
-function handleWords(e) {
-  state.words = e.target.value;
-}
+// application state
+let wordsTyped = '';
 
-function handleClick(event) {
+input.addEventListener('change', (event) => {
+  // NOTE: event.target is the thing that made this happen
+  wordsTyped = event.target.value;
+});
+
+// when the button is clicked (click event)
+// read the text from input
+button.addEventListener('click', (event) => {
   event.preventDefault();
-  state.words = state.words
-    .split('')
-    .reverse()
-    .join('');
+  output.textContent = wordsTyped;
+});
 
-  render();
-}
-
-function init() {
-  state.clicks = 0;
-  state.words = 'nothing to see here';
-  render();
-}
-
-function render() {
-  document.getElementById('words').textContent = state.words;
-}
-
-init();
+// Update the text content of the #words with what we read

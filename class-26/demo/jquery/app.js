@@ -1,33 +1,18 @@
-let state = {};
+'use strict';
 
-let source = document.getElementById('stuff-template').innerHTML;
-let template = Handlebars.compile(source);
+// words, wordsInput, clicker
+
+// application state
+let wordsTyped = '';
+
+$('#wordsInput').on('change', handleChangedInput);
 $('#clicker').on('click', handleClick);
-$('#wordsInput').on('change', handleWords);
 
-function handleWords() {
-  state.words = $(this).val();
+function handleChangedInput() {
+  wordsTyped = $(this).val();
 }
 
 function handleClick(event) {
   event.preventDefault();
-  state.words = state.words
-    .split('')
-    .reverse()
-    .join('');
-
-  render();
+  $('#words').text(wordsTyped);
 }
-
-function init() {
-  state.words = 'nothing to see here';
-  render();
-}
-
-function render() {
-  $('#stuff').html(template(state));
-}
-
-$(function() {
-  init();
-});
