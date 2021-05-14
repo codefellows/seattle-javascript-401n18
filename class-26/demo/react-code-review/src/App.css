@@ -1,0 +1,25 @@
+body {
+  font-size: 25px;
+}
+
+div {
+  margin: 2rem;
+}
+
+label {
+  margin: 1rem;
+}
+
+input[type='radio'], input[type='checkbox'] {
+  display: none;
+}
+
+label span {
+  border: 1px solid red;
+  padding: 1rem;
+  margin: 1px;
+}
+
+input[type="radio"]:checked + span {
+  background: silver;
+}
