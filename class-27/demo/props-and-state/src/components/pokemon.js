@@ -29,7 +29,7 @@ class Pokemon extends React.Component {
         <ul>
           {
             this.state.creatures.map( (creature,idx) =>
-              <li>
+              <li key={idx}>
                 <a href={creature.url}>{creature.name}</a>
               </li>
             )
