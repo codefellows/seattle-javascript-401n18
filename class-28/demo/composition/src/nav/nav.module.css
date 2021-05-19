@@ -1,0 +1,7 @@
+.menuItem {
+  display: inline-block;
+  background: #ccc;
+  border: 3px solid red;
+  margin: .5em;
+  padding: .25;
+}
