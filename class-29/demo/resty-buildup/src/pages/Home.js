@@ -1,5 +1,6 @@
 import React from 'react';
 
+import axios from 'axios';
 import Form from '../components/Form.js';
 import Results from '../components/Results.js';
 import History from '../components/History.js';
@@ -9,34 +10,40 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      history: [
-        {method:"GET", url:"http://john.com"},
-        {method:"POST", url:"http://cathy.com"},
-        {method:"PUT", url:"http://rosie.com"},
-      ],
+      history: [],
       results: {}
     };
   }
 
   fetch = async (formData) => {
 
-    // TODO: Shouldn't be fake, but should come from the API
-    let results = {
-      headers: {
-        authorization: "basic sldfjsdflj"
-        },
-      results: {
-        count: 5,
-        results: [{ foo:'bar'}, { biz:'bop'}]
-      }
+    const method = formData.method || "get";
+    const url = formData.url;
+    const body = formData.body || {};
+
+    const response = await axios({
+      method: method,
+      url: url,
+      body: body
+    });
+
+    const results = response.data;
+
+    const entry = {
+      method: formData.method,
+      url: formData.url,
+      data: results
     }
+    const history = [...this.state.history, entry ];
 
-    // TODO: probably want to save this in history
-    // TOD: Save to local storage once we have the data
-    // let history = [...this.state.history, {method:'DELETE', url:"http://foobar.com"}]
-    this.setState({results});
+    localStorage.setItem('history', JSON.stringify(history));
 
-    console.log("got called with", formData);
+    this.setState({results, history});
+  }
+
+  componentDidMount() {
+    const history = JSON.parse(localStorage.getItem('history')) || [];
+    this.setState({history})
   }
 
   render() {

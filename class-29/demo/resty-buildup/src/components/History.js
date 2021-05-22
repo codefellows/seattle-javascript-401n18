@@ -8,6 +8,7 @@ class History extends React.Component {
         {this.props.history.map( entry =>
           <div key={entry.url}>
             <span>{entry.method}</span>
+            <span> | </span>
             <span>{entry.url}</span>
           </div>
         )}
