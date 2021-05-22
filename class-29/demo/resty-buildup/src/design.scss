@@ -67,3 +67,31 @@ body {
   flex-direction: row;
   flex: 1;
 }
+
+form {
+  margin-bottom: 2em;
+}
+
+aside {
+  width: 400px;
+
+  .history {
+    margin: .15em 0;
+    padding: .5em;
+
+    .method {
+      background: red;
+      border: 1px solid black;
+      border-radius: 5px;
+      color: ivory;
+      display: inline-block;
+      margin: .25em;
+      padding: .5rem;
+      width: 50px;
+    }
+
+    .url {
+      font-size: .5em;
+    }
+  }
+}

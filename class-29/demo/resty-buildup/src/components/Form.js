@@ -5,8 +5,8 @@ class Form extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      url: '',
-      method: '',
+      url: this.props.url,
+      method: this.props.method,
       body: ''
     }
   }
@@ -27,22 +27,22 @@ class Form extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          <input name="url" placeholder="http://..." onChange={this.handleChange} />
+          <input name="url" value={this.state.url} onChange={this.handleChange} />
         </label>
         <label>
-          <input type="radio" name="method" value="get" onChange={this.handleChange} />
+          <input type="radio" name="method" value="get" checked={this.state.method === "get"} onChange={this.handleChange} />
           <span>GET</span>
         </label>
         <label>
-          <input type="radio" name="method" value="post" onChange={this.handleChange} />
+          <input type="radio" name="method" value="post" checked={this.state.method==="post"} onChange={this.handleChange} />
           <span>POST</span>
         </label>
         <label>
-          <input type="radio" name="method" value="put" onChange={this.handleChange} />
+          <input type="radio" name="method" value="put" checked={this.state.method==="put"} onChange={this.handleChange} />
           <span>PUT</span>
         </label>
         <label>
-          <input type="radio" name="method" value="delete" onChange={this.handleChange} />
+          <input type="radio" name="method" value="delete" checked={this.state.method==="delete"} onChange={this.handleChange} />
           <span>DELETE</span>
         </label>
         <label>

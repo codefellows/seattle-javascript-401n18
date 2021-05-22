@@ -11,7 +11,9 @@ class Home extends React.Component {
     super(props);
     this.state = {
       history: [],
-      results: {}
+      results: {},
+      url: '',
+      method:'',
     };
   }
 
@@ -41,6 +43,10 @@ class Home extends React.Component {
     this.setState({results, history});
   }
 
+  transferHistory = (entry) => {
+    this.setState({ ...this.state, url: entry.url, method:entry.method})
+  }
+
   componentDidMount() {
     const history = JSON.parse(localStorage.getItem('history')) || [];
     this.setState({history})
@@ -49,9 +55,9 @@ class Home extends React.Component {
   render() {
     return (
       <div className="homeWrapper">
-        <Form handler={this.fetch} />
+        <Form key={this.state.url} url={this.state.url} method={this.state.method} handler={this.fetch} />
         <div className="homeOutput">
-          <History history={this.state.history} />
+          <History transfer={this.transferHistory} history={this.state.history} />
           <Results data={this.state.results} />
         </div>
       </div>
