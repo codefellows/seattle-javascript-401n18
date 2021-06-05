@@ -1,18 +1,21 @@
-import React from 'react';
-import FoodFromClass from './components/food-with-class.js';
-import FoodFromFunction from './components/food-with-function.js';
-import FoodFromHook from './components/food-with-hooks.js';
-import './app.scss';
+import './App.css';
+
+import Counter from './Counter.js';
+import CounterWithReducer from './CounterWithReucer.js';
+import Person from './Person.js';
+import ContactUs from './Contact';
 
 function App() {
   return (
-    <main>
-      <section>
-        <FoodFromClass />
-        <FoodFromFunction />
-        <FoodFromHook />
-      </section>
-    </main>
+    <div className="App">
+      <Person />
+      <hr />
+      <ContactUs />
+      <hr />
+      <Counter start={50} />
+      <hr />
+      <CounterWithReducer start={100} />
+    </div>
   );
 }
 
