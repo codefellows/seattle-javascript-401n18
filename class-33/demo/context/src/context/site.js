@@ -1,24 +1,27 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
-export const SettingsContext = React.createContext();
+// import {Foobar} from 'site.js';
+export const SiteContext = React.createContext();;
 
-function SettingsProvider(props) {
+function Site(props) {
 
-  const [title, setTitle] = useState('Daily Dose of Code');
-  const [twitter, setTwitter] = useState('DailyDoseOfCode');
+  const [title, setTitle] = useState('Class 401n18');
+  const [type, setType] = useState('Nights and Weekends');
 
-  const state = {
+  const contextualState = {
     title,
-    twitter,
+    type,
     changeTitleTo: setTitle,
-    changeTwitterTo: setTwitter
-  };
+    changeTypeTo: setType
+  }
 
+  // Right now, this is <Main />
   return (
-    <SettingsContext.Provider value={state}>
+    <SiteContext.Provider value={contextualState}>
       {props.children}
-    </SettingsContext.Provider>
-  );
+    </SiteContext.Provider>
+  )
 }
 
-export default SettingsProvider;
+// import WhateverIwantToCallIt from './site.js'
+export default Site;

@@ -1,18 +1,16 @@
-import React from 'react';
 
-import SettingsContext from './context/site.js';
-import ThemeContext from './context/theme.js';
-import Main from './main.js';
-import './app.scss';
+import ThemeContext from './context/Theme.js';
+import SiteContext from './context/Site.js';
+import Main from './Main.js';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <ThemeContext>
-        <SettingsContext>
-          <Main />
-        </SettingsContext>
-      </ThemeContext>
-    );
-  }
+function App() {
+  return (
+    <ThemeContext>
+      <SiteContext>
+        <Main />
+      </SiteContext>
+    </ThemeContext>
+  );
 }
+
+export default App;

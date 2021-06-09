@@ -3,23 +3,32 @@ import React from 'react';
 export const ThemeContext = React.createContext();
 
 class Theme extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
-      mode: 'dark',
-      toggleMode: this.toggleMode,
+      mode: 'light',
+      numberToShowAtATime: 3,
+      sortBy: 'assignee',
+      showCompleted: false,
+      toggleMode: this.toggleMode
     };
   }
 
-  toggleMode = () => this.setState({ mode: this.state.mode === 'dark' ? 'light' : 'dark' });
+  toggleMode = () => {
+    const mode = this.state.mode === "dark" ? 'light' : 'dark';
+    console.log('New Mode', mode)
+    this.setState({mode})
+  }
 
   render() {
     return (
       <ThemeContext.Provider value={this.state}>
         {this.props.children}
       </ThemeContext.Provider>
-    );
+    )
   }
+
 }
 
 export default Theme;
