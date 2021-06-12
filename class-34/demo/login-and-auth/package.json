@@ -1,25 +1,32 @@
 {
-  "name": "class-34-demo",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "login-and-auth",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jsonwebtoken": "8.5.1",
-    "prop-types": "15.7.2",
-    "react": "16.9.0",
-    "react-cookies": "0.1.1",
-    "react-dom": "16.9.0",
-    "react-router-dom": "5.0.1",
-    "react-scripts": "3.1.1",
-    "superagent": "5.1.0"
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "jsonwebtoken": "^8.5.1",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.2",
+    "react-if": "^4.0.1",
+    "react-scripts": "4.0.3",
+    "superagent": "^6.1.0",
+    "web-vitals": "^1.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [

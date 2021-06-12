@@ -1,37 +1,18 @@
-import React from 'react';
+import './site.scss';
 
-import Auth from './components/auth/auth.js';
-import Login from './components/auth/login.js';
-import LoginContext from './components/auth/context.js';
+import LoginContext from './auth/context.js';
+import Content from './Content.js';
+import Login from './auth/Login.js';
 
-const EditLink = props => {
+function App() {
   return (
-    <Auth capability="update">
-      <span>Edit</span>
-    </Auth>
+    <LoginContext>
+       <h1>Login/Auth Demo</h1>
+       <Login />
+       <hr />
+       <Content />
+    </LoginContext>
   );
-};
-
-const DeleteLink = props => {
-  return (
-    <Auth capability="delete">
-      <span>Delete</span>
-    </Auth>
-  );
-};
-
-class App extends React.Component {
-
-  render() {
-    return (
-      <LoginContext>
-        <Login />
-        <hr />
-        <EditLink />
-        <DeleteLink />
-      </LoginContext>
-    );
-  }
 }
 
 export default App;
