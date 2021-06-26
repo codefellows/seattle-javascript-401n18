@@ -1,20 +1,16 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { combineReducers, applyMiddleware, createStore } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
 
-// Our custom written thunk...
+import todoReducer from './todo';
+
+import loggerMiddleware from './middleware/logger.js';
 import thunk from './middleware/thunk.js';
 
-// The official thunk. Use this in production code
-// import thunk from 'redux-thunk';
-
-import reducer from './reducers.js';
-
 let reducers = combineReducers({
-  data: reducer
-});
+  todo: todoReducer
+})
 
-const store = () => {
-  return createStore(reducers, composeWithDevTools(applyMiddleware(thunk)));
-};
+const store = () =>
+  createStore(reducers, composeWithDevTools( applyMiddleware(loggerMiddleware, thunk)) );
 
 export default store();
